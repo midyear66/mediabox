@@ -147,7 +147,7 @@ services:
   # PLEX
   # ----------------------------------------
   plex:
-    container_name: plex:latest
+    container_name: plex
     image: plexinc/pms-docker:${PMSTAG}
     restart: unless-stopped
     network_mode: "bridge"
